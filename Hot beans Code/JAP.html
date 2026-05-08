@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beans</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+
+
+<body>
+    <div id="header">
+        <a href="Home.html" >Hot Beans</a>
+    </div>
+    <div id="navbar">
+        <a href="Home.html">Home Page</a>
+        <a href="CPP.html">Company Profile Page</a>
+        <a href="JAP.html">Job Application Page</a>
+        <a href="TPP.html">Trainee Profile Page</a>
+        <a href="WDP.html">Web Development Page</a>
+    </div>
+
+    <div id="Title">
+        <h1>Job Application Page</h1>
+        <p>Apply for open positions at Hot Beans.</p>
+
+    </div>
+
+
+
+
+    <div class="container">
+
+    <form>
+      <label>Full Name</label>
+      <input type="text" name="name" required>
+
+      <div class="row">
+        <div>
+          <label>Email</label>
+          <input type="email" name="email" required>
+        </div>
+        <div>
+          <label>Phone Number</label>
+          <input type="tel" name="phone" required>
+        </div>
+      </div>
+
+      <label>Position Applying For</label>
+      <select name="position" required>
+        <option value="">Select a role</option>
+        <option>Junior Web Developer</option>
+        <option>Frontend Developer</option>
+        <option>Backend Developer</option>
+      </select>
+
+      <label>Qualifications</label>
+      <textarea name="qualifications" placeholder="List your relevant qualifications..."></textarea>
+
+      <label>Experience</label>
+      <textarea name="experience" placeholder="Describe any previous experience..."></textarea>
+
+      <label>Portfolio Link</label>
+      <input type="url" name="portfolio" placeholder="https://">
+
+      <label>Upload CV</label>
+      <input type="file" name="cv">
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+
+
+</body>
+
+<footer>
+    <p>&copy; 2026 Hot Beans. All rights reserved.</p>
+</footer>
+
+
+</html>
