@@ -1,2 +1,0 @@
-# Hot-Beans
-My Website
